@@ -28,7 +28,7 @@
       height="100vh"
       style="width: 100vw; height: 100vh; background: #231f20"
     ></canvas>
-    <script src="/Build/ultrakill.loader.js"></script>
+    <script src="Build/ultrakill.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -45,9 +45,9 @@
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         dataUrl:
-          "/Build/ultrakill.data.unityweb",
-        frameworkUrl: "/Build/ultrakill.framework.js.unityweb",
-        codeUrl: "/Build/ultrakill.wasm.unityweb",
+          "Build/ultrakill.data.unityweb",
+        frameworkUrl: "Build/ultrakill.framework.js.unityweb",
+        codeUrl: "Build/ultrakill.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Hakita and Cake Logic",
         productName: "ULTRAKILL WEB PORT",
